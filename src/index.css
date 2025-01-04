@@ -1,0 +1,14 @@
+/* Global styles for full-screen rendering */
+html, body, #root, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
